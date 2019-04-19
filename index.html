@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+<!-- LEADING COMMENT: PLEASE READ -->
+<!-- All of us (Andre, Anton, Melina) are working on Melina's github site 
+    together, assigning each other sections to work through and working 
+    on different sections on our own accord. -->
 
 <!-- We're using <h1> for header 1, "A header?" -->
 <h1>A header?</h1>
@@ -9,7 +13,19 @@ layout: default
 <p>A paragraph. This is under the first header. It's amazing. This class is super cool.
     I love this class. Amen.
 </p>
+<!-- A span with a magenta word-->
 <p> This is a special paragraph, because span is used.<span style ="color: magenta"> Super cool.</span></p>
+<!-- An ordered list-->
+<p> A list of animals</p>
+<ol type = "1"> 
+    <li>cat</li>
+    <li>dog</li>
+    <li>fish</li>
+    <li>chicken</li>
+</ol>
+<!-- An image-->
+<p>An image of doge.</p>
+<img src="https://dogemuchwow.com/wp-content/uploads/2017/11/web-developer-doge.jpg">
 <!-- We're using <h2> for a secondary header, "Wowers, another header." -->
 <h2> Wowers, another header.</h2>
 
@@ -18,13 +34,42 @@ layout: default
 
 <!-- We're making some normal text using <p>, then making some different
     colored text using <span> combined with "style="-->
-<p>I'm going to try something out of the <span style="color:blue">blue</span> with span.</p>
+<p>I'm going to try something out of the <span style="color:blue">blue</span> with 
+    special colored text.</p>
 
 <!-- We're dividing text by adding a colorful background to it using 
     <div> -->
 <div style="background-image:linear-gradient(to right, rgb(160, 255, 247) , rgb(255, 159, 191))"">
     <p>c o l o r f u l t e x t</p>
 </div>
+
+<!-- We're making a table. Using <table> to start off the code
+    so VSC knows we want to make a table.-->
+<table>
+    <!-- We're using <tr> here to let VSC know that we're starting
+        the table's top row here -->
+    <tr>
+        <!-- We're using <th> here to let VSC know that we're making
+            header cells for our table -->
+        <th><strong>Table Cell 1</strong></th>
+        <th><strong>Table Cell 2</strong></th>
+        <th><strong>Table Cell 3</strong></th>
+    </tr>
+    <!-- Another row for our table -->
+    <tr>
+        <!-- This time, we're using <td> to specify that the following
+            cells are for data for our table -->
+        <td>Table Cell 4</td>
+        <td>Table Cell 5</td>
+        <td>Table Cell 6</td>
+    </tr>
+    <!-- Repeat of above, but now it's a third row -->
+    <tr>
+        <td>Table Cell 7</td>
+        <td>Table Cell 8</td>
+        <td>Table Cell 9</td>
+    </tr>
+</table>
 
 <!-- We're using <div> to establish a paragraph 1, "Is this a paragraph?" -->
 <div>I like writing paragraphs. Paragraphs gives me alot of purpose in my writing. I also like to skateboard and read in my spare time.</div>
@@ -35,3 +80,9 @@ layout: default
 <!-- We're using <ol> and <ul> to create a list, "Is this a list?" -->
 <ul><li>Red</li><li>Yellow</li><li>Green</li></ul>
 
+<!-- We're adding an image using <img> while also adding some text in-case
+    the image doesn't load.-->
+<h2>Here's an image of Joker from Persona 5 in Super Smash 
+    Bros. Ultimate</h2>
+<img src="https://www.ssbwiki.com/images/e/eb/SSBUWebsiteJoker1.jpg", alt="Joker from 
+    Persona 5, appearing in Super Smash Bros Ultimate.">
